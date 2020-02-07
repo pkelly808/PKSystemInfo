@@ -34,7 +34,6 @@ param(
                 $obj = New-Object -TypeName PSObject -Property $props
                 Write-Output $obj
             }
-       
         }
     }
 }
@@ -70,7 +69,7 @@ param(
                 }
 
                 $obj = New-Object -TypeName PSObject -Property $props
-                $obj.PSObject.TypeNames.Insert(0,’PKSystemInfo.DriveInfo’)
+                $obj.PSObject.TypeNames.Insert(0,ï¿½PKSystemInfo.DriveInfoï¿½)
                 Write-Output $obj
             }
 
@@ -155,7 +154,7 @@ param(
             }
 
             $obj = New-Object -TypeName PSObject -Property $props
-            $obj.PSObject.TypeNames.Insert(0,’PKSystemInfo.SystemInfo’)
+            $obj.PSObject.TypeNames.Insert(0,ï¿½PKSystemInfo.SystemInfoï¿½)
             Write-Output $obj
         }
     }
